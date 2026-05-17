@@ -177,4 +177,4 @@ Projet personnel — tous droits réservés © 2026 flo86dev25.
 
 ---
 
-*Documentation mise à jour pour la version 1.0.2*
+*Documentation mise à jour pour la version 1.0.1*
