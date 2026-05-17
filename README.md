@@ -2,7 +2,7 @@
 
 > Application web progressive (PWA) de planification des repas en famille.
 
-![Version](https://img.shields.io/badge/version-1.0.2-terracotta?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.1-terracotta?style=flat-square)
 ![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?style=flat-square&logo=firebase)
 ![PWA](https://img.shields.io/badge/PWA-installable-green?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-APK-brightgreen?style=flat-square&logo=android)
