@@ -2,7 +2,7 @@
 
 > Application web progressive (PWA) de planification des repas en famille.
 
-![Version](https://img.shields.io/badge/version-1.0.1-terracotta?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.2-terracotta?style=flat-square)
 ![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?style=flat-square&logo=firebase)
 ![PWA](https://img.shields.io/badge/PWA-installable-green?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-APK-brightgreen?style=flat-square&logo=android)
@@ -37,9 +37,9 @@ Téléchargez et installez l'APK directement :
 
 ### 💻 PC (Chrome ou Edge) — PWA
 
-1. Ouvrez **[ma-table-69581.web.app](https://ma-table-69581.web.app)** dans Chrome ou Edge
-2. Cliquez sur l'icône **⊕** dans la barre d'adresse
-3. Cliquez sur **« Installer »**
+1. Ouvrez **[ma-table-69581.web.app](https://ma-table-69581.web.app/)** dans Chrome ou Edge
+2. Inscription à l'application
+3. Cliquez sur **« Installer »** (icône bleue)
 4. L'app apparaît sur votre bureau ✅
 
 ### 🍎 iPhone (Safari) — PWA
@@ -153,6 +153,7 @@ Téléchargez et installez l'APK directement :
 | Icône PWA personnalisée | Icône « Ma Table » affichée lors de l'installation sur bureau PC, écran d'accueil iPhone ou Android (PWA). |
 | Mode hors-ligne | Service Worker cache-first : l'app fonctionne sans connexion, modifications mises en file d'attente. |
 | Application Android native | Version Capacitor (APK) : mode immersif, notifications locales, partage natif de PDF. |
+| Détection de mise à jour APK | Au démarrage de l'app Android, vérification automatique d'une nouvelle version sur GitHub Releases. Un bandeau s'affiche avec lien de téléchargement direct si une version plus récente est disponible. |
 | Thème clair / sombre | Bascule dans la barre. Préférence mémorisée en localStorage. |
 | Navigation responsive | 3 onglets (Calendrier, Courses, Recettes). Drawer mobile (hamburger) sur petit écran. |
 | Onboarding | Écran de bienvenue 7 slides (swipe, clavier) présenté à la première connexion. Accessible à tout moment via le bouton « Présentation » dans le menu. |
@@ -177,4 +178,4 @@ Projet personnel — tous droits réservés © 2026 flo86dev25.
 
 ---
 
-*Documentation mise à jour pour la version 1.0.1*
+*Documentation mise à jour pour la version 1.0.2*
