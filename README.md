@@ -2,7 +2,7 @@
 
 > Application web progressive (PWA) de planification des repas en famille.
 
-![Version](https://img.shields.io/badge/version-1.0.3-terracotta?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.4-terracotta?style=flat-square)
 ![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?style=flat-square&logo=firebase)
 ![PWA](https://img.shields.io/badge/PWA-installable-green?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-APK-brightgreen?style=flat-square&logo=android)
@@ -153,6 +153,7 @@ Téléchargez et installez l'APK directement :
 | Icône PWA personnalisée | Icône « Ma Table » affichée lors de l'installation sur bureau PC, écran d'accueil iPhone ou Android (PWA). |
 | Mode hors-ligne | Service Worker cache-first : l'app fonctionne sans connexion, modifications mises en file d'attente. |
 | Application Android native | Version Capacitor (APK) : mode immersif, notifications locales, partage natif de PDF. |
+| Splash screen | Écran de démarrage affiché pendant la vérification de session Firebase. Remplace l'affichage de l'écran de connexion au démarrage pour une expérience plus professionnelle. |
 | Détection de mise à jour APK | Au démarrage de l'app Android, vérification automatique d'une nouvelle version sur GitHub Releases. Un bandeau s'affiche avec lien de téléchargement direct si une version plus récente est disponible. |
 | Thème clair / sombre | Bascule dans la barre. Préférence mémorisée en localStorage. |
 | Navigation responsive | 3 onglets (Calendrier, Courses, Recettes). Drawer mobile (hamburger) sur petit écran. |
@@ -204,4 +205,4 @@ Projet personnel — tous droits réservés © 2026 flo86dev25.
 
 ---
 
-*Documentation mise à jour pour la version 1.0.3*
+*Documentation mise à jour pour la version 1.0.4*
