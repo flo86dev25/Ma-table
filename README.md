@@ -162,6 +162,32 @@ Téléchargez et installez l'APK directement :
 
 ---
 
+## 🔄 Workflow de release
+
+À chaque nouvelle version, **4 fichiers à synchroniser** avant de builder :
+
+| Fichier | Modification |
+|---|---|
+| `index.html` | `APP_VERSION = '1.0.x'` |
+| `android/app/build.gradle` | `versionCode x` (entier +1) / `versionName "1.0.x"` |
+| `sw.js` | `const CACHE = 'ma-table-vX'` (entier +1) |
+| GitHub Release | Tag `v1.0.x` + asset `ma-table.apk` + **Latest coché** |
+
+```bash
+# 1. Modifier les 3 fichiers ci-dessus
+# 2. Copier les fichiers web dans le projet Android
+npx cap copy android
+# 3. Builder l'APK
+npx cap build android --release
+# 4. Déployer sur Firebase
+firebase deploy
+# 5. Créer la release GitHub avec le nouvel APK (Latest coché)
+```
+
+> ⚠️ Le numéro de `versionCode` et de `CACHE` doivent toujours être **strictement croissants**. Ne jamais revenir à un numéro inférieur ou identique.
+
+---
+
 ## 🛠 Stack technique
 
 - **Frontend** : HTML / CSS / JavaScript vanilla (single file)
