@@ -1,12 +1,8 @@
 # 🍽 Ma Table — Planificateur de repas familial
 
-> Application web progressive (PWA) de planification des repas en famille.
+Application web progressive (PWA) de planification des repas en famille.
 
-![Version](https://img.shields.io/badge/version-1.0.4-terracotta?style=flat-square)
-![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?style=flat-square&logo=firebase)
-![PWA](https://img.shields.io/badge/PWA-installable-green?style=flat-square)
-![Android](https://img.shields.io/badge/Android-APK-brightgreen?style=flat-square&logo=android)
-![Licence](https://img.shields.io/badge/licence-privée-red?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.6-terracotta) ![Firebase](https://img.shields.io/badge/backend-Firebase-orange) ![PWA](https://img.shields.io/badge/PWA-installable-blue) ![Android](https://img.shields.io/badge/Android-APK-green) ![Licence](https://img.shields.io/badge/licence-All%20rights%20reserved-red)
 
 **Ma Table** permet de gérer un calendrier de menus partagé, une liste de courses intelligente et un carnet de recettes, le tout synchronisé en temps réel entre plusieurs membres d'un même foyer.
 
@@ -18,9 +14,9 @@ La **vérification de compte** et la **réinitialisation de mot de passe** par e
 
 ✅ Ces fonctionnalités fonctionnent normalement avec une adresse **@gmail.com**.
 
-Vous pouvez quand même **utiliser l'application et toutes ses fonctionnalités normalement**.
+Vous pouvez quand même **utiliser l'application et toutes ses fonctionnalités** normalement.
 
-Pour tout problème : [flo86dev25@gmail.com](mailto:flo86dev25@gmail.com) ou le formulaire de contact dans l'application.
+Pour tout problème : flo86dev25@gmail.com ou le formulaire de contact dans l'application.
 
 ---
 
@@ -32,22 +28,21 @@ Téléchargez et installez l'APK directement :
 
 👉 **[Télécharger Ma Table pour Android](https://github.com/flo86dev25/Ma-table/releases/latest/download/ma-table.apk)**
 
-> ⚠️ Android peut afficher un avertissement « Application inconnue ». Appuyez sur **Installer quand même** — l'app est sûre, elle n'est pas distribuée via le Play Store.
-> Le lien pointe toujours vers la **dernière version** disponible.
+> ⚠️ Android peut afficher un avertissement « Application inconnue ». Appuyez sur **Installer quand même** — l'app est sûre, elle n'est pas distribuée via le Play Store. Le lien pointe toujours vers la dernière version disponible.
 
 ### 💻 PC (Chrome ou Edge) — PWA
 
-1. Ouvrez **[ma-table-69581.web.app](https://ma-table-69581.web.app/)** dans Chrome ou Edge
+1. Ouvrez [ma-table-69581.web.app](https://ma-table-69581.web.app) dans Chrome ou Edge
 2. Inscription à l'application
-3. Cliquez sur **« Installer »** (icône bleue)
+3. Cliquez sur « Installer » (icône bleue)
 4. L'app apparaît sur votre bureau ✅
 
 ### 🍎 iPhone (Safari) — PWA
 
-1. Ouvrez **[ma-table-69581.web.app](https://ma-table-69581.web.app)** dans Safari
-2. Appuyez sur le bouton **Partager 📤** (en bas de l'écran)
-3. Choisissez **« Sur l'écran d'accueil »**
-4. Appuyez sur **« Ajouter »** ✅
+1. Ouvrez [ma-table-69581.web.app](https://ma-table-69581.web.app) dans Safari
+2. Appuyez sur le bouton Partager 📤 (en bas de l'écran)
+3. Choisissez « Sur l'écran d'accueil »
+4. Appuyez sur « Ajouter » ✅
 
 ---
 
@@ -65,8 +60,6 @@ Téléchargez et installez l'APK directement :
 | Suppression de compte | Suppression totale des données personnelles. Si le foyer est partagé, seule la participation est retirée ; si l'utilisateur est seul, le foyer entier est supprimé. Confirmation par saisie de « SUPPRIMER ». |
 | Popover « Mon compte » | Accès rapide à l'e-mail, statut de vérification, partage du foyer, rejoindre un foyer, formulaire de contact et suppression de compte. |
 
----
-
 ### 2. Foyers partagés & Synchronisation
 
 | Fonctionnalité | Description |
@@ -80,8 +73,6 @@ Téléchargez et installez l'APK directement :
 | Mode hors-ligne | Données sauvegardées en localStorage. À la reconnexion, la file d'attente est envoyée à Firestore. |
 | Purge automatique | Les repas de plus de 180 jours sont supprimés automatiquement au démarrage. |
 
----
-
 ### 3. Calendrier des repas
 
 | Fonctionnalité | Description |
@@ -94,10 +85,9 @@ Téléchargez et installez l'APK directement :
 | Ajout d'ingrédients aux courses | Lors de la planification, proposition d'ajouter les ingrédients directement à la liste de courses. |
 | Qui cuisine ? | Sélecteur par jour pour attribuer un cuisinier parmi les convives ; affiché en doré et dans le PDF. |
 | Échange de repas (Swap) | Mode d'échange permettant de déplacer un repas d'une cellule à une autre en deux clics. |
+| **Suggestion de semaine** | Génération automatique de 7 jours de menus équilibrés. Tableau de prévisualisation avec verrouillage par cellule, bouton ✕ supprimer, aperçu cliquable de chaque recette (ingrédients, temps, difficulté) et bouton Changer pour régénérer une cellule. Après validation, proposition d'ajouter les ingrédients de chaque recette à la liste de courses. |
 | Export PDF du menu | Génération d'un PDF A4 du menu sur 1 à 4 semaines, avec tableau jours × repas et cuisiniers. |
 | Vue œil recette | Icône sur chaque repas lié à une recette pour ouvrir la fiche directement depuis le calendrier. |
-
----
 
 ### 4. Liste de courses
 
@@ -111,8 +101,6 @@ Téléchargez et installez l'APK directement :
 | Données saisonnières | Onglet « Saison » : fruits, légumes et poissons du mois courant. Badge pour la pleine saison. |
 | Export PDF / texte | Téléchargement de la liste en PDF ou copie en texte brut. |
 | Import / Export JSON | Importation et exportation de la liste en fichier JSON. |
-
----
 
 ### 5. Carnet de recettes
 
@@ -128,8 +116,6 @@ Téléchargez et installez l'APK directement :
 | Export PDF d'une recette | PDF A4 mise en page soignée : en-tête coloré, bloc Ingrédients, bloc Instructions. |
 | Import / Export JSON | Import/export de toutes les recettes ou d'une seule en fichier JSON. |
 
----
-
 ### 6. Convives, Notifications & Rappels
 
 | Fonctionnalité | Description |
@@ -140,9 +126,7 @@ Téléchargez et installez l'APK directement :
 | Configuration des rappels | Modal de paramétrage : heure de rappel pour chaque repas (midi / soir), bascule on/off par type. |
 | Contenu du rappel | La notification affiche le menu du jour et le cuisinier désigné. |
 | Service Worker (web) | Alarmes persistées dans IndexedDB du SW, déclenchées même app fermée (vérification toutes les 60 s). |
-| Notifications natives Android | Sur l'app Android (Capacitor), utilisation des LocalNotifications système. |
-
----
+| Notifications natives Android | Sur l'app Android (Capacitor), utilisation des LocalNotifications système avec `exact: true` et planification 7 jours à l'avance. |
 
 ### 7. PWA, Interface & Personnalisation
 
@@ -153,7 +137,7 @@ Téléchargez et installez l'APK directement :
 | Icône PWA personnalisée | Icône « Ma Table » affichée lors de l'installation sur bureau PC, écran d'accueil iPhone ou Android (PWA). |
 | Mode hors-ligne | Service Worker cache-first : l'app fonctionne sans connexion, modifications mises en file d'attente. |
 | Application Android native | Version Capacitor (APK) : mode immersif, notifications locales, partage natif de PDF. |
-| Splash screen | Écran de démarrage affiché pendant la vérification de session Firebase. Remplace l'affichage de l'écran de connexion au démarrage pour une expérience plus professionnelle. |
+| Splash screen | Écran de démarrage affiché pendant la vérification de session Firebase. |
 | Détection de mise à jour APK | Au démarrage de l'app Android, vérification automatique d'une nouvelle version sur GitHub Releases. Un bandeau s'affiche avec lien de téléchargement direct si une version plus récente est disponible. |
 | Thème clair / sombre | Bascule dans la barre. Préférence mémorisée en localStorage. |
 | Navigation responsive | 3 onglets (Calendrier, Courses, Recettes). Drawer mobile (hamburger) sur petit écran. |
@@ -165,14 +149,14 @@ Téléchargez et installez l'APK directement :
 
 ## 🔄 Workflow de release
 
-À chaque nouvelle version, **4 fichiers à synchroniser** avant de builder :
+À chaque nouvelle version, 4 fichiers à synchroniser avant de builder :
 
 | Fichier | Modification |
 |---|---|
 | `index.html` | `APP_VERSION = '1.0.x'` |
 | `android/app/build.gradle` | `versionCode x` (entier +1) / `versionName "1.0.x"` |
 | `sw.js` | `const CACHE = 'ma-table-vX'` (entier +1) |
-| GitHub Release | Tag `v1.0.x` + asset `ma-table.apk` + **Latest coché** |
+| GitHub Release | Tag `v1.0.x` + asset `ma-table.apk` + Latest coché |
 
 ```bash
 # 1. Modifier les 3 fichiers ci-dessus
@@ -203,6 +187,4 @@ firebase deploy
 
 Projet personnel — tous droits réservés © 2026 flo86dev25.
 
----
-
-*Documentation mise à jour pour la version 1.0.4*
+*Documentation mise à jour pour la version 1.0.6*
