@@ -194,4 +194,4 @@ firebase deploy
 
 Projet personnel — tous droits réservés © 2026 flo86dev25.
 
-*Documentation mise à jour pour la version 1.0.7*
+*Documentation mise à jour pour la version 1.0.9*
